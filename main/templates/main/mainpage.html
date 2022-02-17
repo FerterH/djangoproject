@@ -1,0 +1,27 @@
+{% extends 'main/base.html' %}
+{% block body %}
+<style>
+.example-1 {
+
+    height: 830px;
+    background-image: url(https://asiamountains.net/upload/slide/slide-1960x857-07.jpg);
+}
+</style>
+<div class="example-1"></div>
+<style>
+    .center{
+    margin-left: 750px;
+    font-size: 40px;
+    }
+</style>
+<div class="center">Добро пожаловать!</div>
+<div class="center">Выберите направление</div>
+<h1></h1>
+<ul class="center">
+        <li class="nav-item"><a href="europe" class="nav-link active" aria-current="page">Европа</a></li>
+        <li class="nav-item"><a href="asia" class="nav-link">Азия</a></li>
+        <li class="nav-item"><a href="russia" class="nav-link">Россия</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Америка</a></li>
+
+      </ul>
+{%endblock%}
